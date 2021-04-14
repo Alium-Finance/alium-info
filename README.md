@@ -1,9 +1,9 @@
-# Alium API
+# PancakeSwap API
 
-The Alium API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface Alium liquidity
+The PancakeSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface PancakeSwap liquidity
 and volume information. All information is fetched from the underlying subgraphs.
 
-Subgraph: https://api.bscgraph.org/subgraphs/name/aliumswap
+Subgraph: https://api.bscgraph.org/subgraphs/name/cakeswap
 
 ## Documentation
 

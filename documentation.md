@@ -1,18 +1,18 @@
 # Endpoints
 
-All AliumSwap pairs consist of two different tokens. BNB is not a native currency in AliumSwap, and is represented only by WBNB in the pairs. 
+All PancakeSwap pairs consist of two different tokens. BNB is not a native currency in PancakeSwap, and is represented only by WBNB in the pairs. 
 
-The canonical WBNB address used by the AliumSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
+The canonical WBNB address used by the PancakeSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 Results are edge-cached for 1 minute (or 60 seconds) and refreshed in background (`stale-while-revalidate`).
 
-## [`/summary`](https://api.alium.finance/api/summary)
+## [`/summary`](https://api.pancakeswap.info/api/summary)
 
-Returns data for the top ~1000 AliumSwap pairs, sorted by reserves. 
+Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.alium.finance/api/summary`
+`GET https://api.pancakeswap.info/api/summary`
 
 ### Response
 
@@ -29,13 +29,13 @@ Returns data for the top ~1000 AliumSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/assets`](https://api.alium.finance/api/assets)
+## [`/assets`](https://api.pancakeswap.info/api/assets)
 
-Returns the tokens in the top ~1000 pairs on AliumSwap, sorted by reserves. 
+Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves. 
 
 ### Request
 
-`GET https://api.alium.finance/api/assets`
+`GET https://api.pancakeswap.info/api/assets`
 
 ### Response
 
@@ -52,13 +52,13 @@ Returns the tokens in the top ~1000 pairs on AliumSwap, sorted by reserves.
 }
 ```
 
-## [`/tickers`](https://api.alium.finance/api/tickers)
+## [`/tickers`](https://api.pancakeswap.info/api/tickers)
 
-Returns data for the top ~1000 AliumSwap pairs, sorted by reserves.
+Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.alium.finance/api/tickers`
+`GET https://api.pancakeswap.info/api/tickers`
 
 ### Response
 
@@ -85,13 +85,13 @@ Returns data for the top ~1000 AliumSwap pairs, sorted by reserves.
 
 ## `/orderbook/:pair`
 
-Returns simulated orderbook data for the given AliumSwap pair.
-Since AliumSwap has a continuous orderbook, fixed amounts in an interval are chosen for bids and asks, 
-and prices are derived from the AliumSwap formula (accounting for both slippage and fees paid to LPs). 
+Returns simulated orderbook data for the given PancakeSwap pair.
+Since PancakeSwap has a continuous orderbook, fixed amounts in an interval are chosen for bids and asks, 
+and prices are derived from the PancakeSwap formula (accounting for both slippage and fees paid to LPs). 
 
 ### Request
 
-`GET https://api.alium.finance/api/orderbook/:pair`
+`GET https://api.pancakeswap.info/api/orderbook/:pair`
 
 ### URL Parameters
 
@@ -117,7 +117,7 @@ and prices are derived from the AliumSwap formula (accounting for both slippage 
 
 ## `/trades/:pair`
 
-Returns all swaps in the last 24 hours for the given AliumSwap pair. 
+Returns all swaps in the last 24 hours for the given PancakeSwap pair. 
 
 The pair address is the address of the two tokens in either order.
 The first address is considered the base in the response.
@@ -128,7 +128,7 @@ The first address is considered the base in the response.
 
 ### Request
 
-`GET https://api.alium.finance/api/trades/:pair`
+`GET https://api.pancakeswap.info/api/trades/:pair`
 
 ### Response
 

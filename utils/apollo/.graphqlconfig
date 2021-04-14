@@ -1,10 +1,10 @@
 {
-  "name": "AliumSwap",
+  "name": "PancakeSwap v2",
   "schemaPath": "schema.graphql",
   "extensions": {
     "endpoints": {
       "PancakeSwap v2": {
-        "url": "hhttps://graphtest.alium.finance/subgraphs/name/aliumswap/alium",
+        "url": "https://api.bscgraph.org/subgraphs/name/cakeswap",
         "headers": {
           "user-agent": "JS GraphQL"
         },

@@ -1,9 +1,9 @@
 {
-  "name": "alium-info-api",
+  "name": "pancake-info-api",
   "version": "1.0.0",
-  "description": "Serverless API implementation for AliumSwap on-chain data query.",
-  "repository": "git@github.com:aliumswap/alium-info-api.git",
-  "author": "AliumSwap",
+  "description": "Serverless API implementation for PancakeSwap on-chain data query.",
+  "repository": "git@github.com:pancakeswap/pancake-info-api.git",
+  "author": "PancakeSwap",
   "license": "MIT",
   "scripts": {
     "format": "prettier --write '*/**/*.{js,ts}'",

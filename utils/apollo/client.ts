@@ -4,7 +4,7 @@ import fetch from "cross-fetch";
 export const client = new ApolloClient({
   link: new HttpLink({
     fetch,
-    uri: "https://graphtest.alium.finance/subgraphs/name/aliumswap/alium",
+    uri: "https://api.bscgraph.org/subgraphs/name/cakeswap",
   }),
   cache: new InMemoryCache(),
 });
