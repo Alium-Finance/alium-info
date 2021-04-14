@@ -1,0 +1,15 @@
+{
+  "name": "AliumSwap",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "PancakeSwap v2": {
+        "url": "hhttps://graphtest.alium.finance/subgraphs/name/aliumswap/alium",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
