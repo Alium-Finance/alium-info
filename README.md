@@ -1,10 +1,17 @@
-# Alium API
+# Alium History
 
-The Alium API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface Alium liquidity
-and volume information. All information is fetched from the underlying subgraphs.
+Check it out live: [https://info.alium.finance/](https://info.alium.finance/).
 
-Subgraph: https://api.bscgraph.org/subgraphs/name/aliumswap
+### To Start Development
 
-## Documentation
+###### Installing dependencies
 
-The documentation of the endpoints can be found [here](./documentation.md).
+```bash
+yarn
+```
+
+###### Running locally
+
+```bash
+yarn start
+```
