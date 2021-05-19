@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { GitHubIcon, TelegramIcon, TwitterIcon, MediumIcon } from '../../svg'
+import { GitHubIcon, TelegramIcon, TwitterIcon, MediumIcon, CoinGeckoIcon } from '../../svg'
 
 const StyledContainer = styled.div`
   position: absolute;
@@ -43,6 +43,9 @@ const LinksContainer = () => {
         </StyledLink>
         <StyledLink href="https://aliumswap.medium.com/" target={'_blank'}>
           <MediumIcon />
+        </StyledLink>
+        <StyledLink href="https://www.coingecko.com/en/coins/alium-swap" target={'_blank'}>
+          <CoinGeckoIcon />
         </StyledLink>
       </StyledLinks>
     </StyledContainer>
